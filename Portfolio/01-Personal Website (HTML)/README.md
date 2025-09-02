@@ -51,7 +51,7 @@ This exercise will guide us to learn most of the html basic elements. This guide
   - Flag of the country
 - Add a back link to the **homepage**
 - Create a link to your **destination** page from the **homepage** with the title _My Favorite Spots_.
-- Make sure you place an anchor destination at the beginning of each section
+- Make sure you place an anchor destination at the beginning of each section (index.html)
 - Add direct links to the other destinations from the **homepage**
 - Add direct links to the homepage of your educational institutions, make sure that the image also takes you there.
 
