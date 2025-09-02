@@ -1,3 +1,25 @@
 body {
     margin: 0;
 }
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+}
+#Top{
+    background-color: aquamarine;
+    Border: 10px solid;
+    padding: 20px;
+}
+#Mid{
+    background-color: crimson;
+    border: 20px;
+    top: 340px;
+    left: 260px;
+}
+#Bot{
+    background-color: greenyellow;
+    border: 10px;
+    top: 540px;
+    left: 460px;
+}
