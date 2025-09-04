@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    grid-template-rows: 150px 150px 100px;
+    gap: 10px;
+    background: black; /* black lines */
+    padding: 10px;
+}
+.box {
+    background: white;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.yellow {
+    background: yellow;
+}
+.black {
+    background: black;
+}

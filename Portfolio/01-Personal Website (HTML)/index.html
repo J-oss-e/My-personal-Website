@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Website - HTML</title>
   <link rel="stylesheet" href="css\styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
   <table>
@@ -13,13 +14,14 @@
       <th>
         <h1>Angel Jose Muñoz Silva</h1>
       </th>
-      <th><img src="images/Foto de mi xdlol.jpg" alt=" imagen de mi" width="150" height="200"></th>
-      </tr>
+    </tr>
+    <tr>
+      <td><img src="images/Foto de mi xdlol.jpg" alt=" imagen de mi" width="150" height="200"></td>
     <tr>
       <th><h3>Estudiante en la Universidad Panamericana en la carrera de Ingenieria en Sistemas y Graficas Computacionales.</h3></th>
     </tr>
     <tr>
-      <th><h3>Coto Vitana Residencial</h3></th>
+      <th><h3>Guadalajara, Jalisco, Mexico</h3></th>
     </tr>
   </table>  
   <hr>
@@ -29,12 +31,34 @@
     <br>
     <em>"After all, is still you!"</em>
   </p>
-  <h2><strong><u>Background</u></strong></h2>
+  <div>
+    <h2>Index</h2>
+    <a href="#Background">Background</a>
+    <br>
+    <a href="#Education">Education</a>
+    <br>
+    <a href="#Skills">Skills</a>
+    <br>
+    <a href="#Hobbies">Hobbies</a>
+    <br>
+    <a href="#Favorite">Favorite Food</a>
+    <br>
+    <a href="#Favorites">Books, Movies & Tv Shows</a>
+    <br>
+    <a href="#Spots">Spots</a>
+    <br>
+    <a href="#Idols">Heroes/Writers/Musicians</a>
+    <br>
+    <a href="#Schedule">Schedule</a>
+    <br>
+    <a href="#Form">Form</a>
+  </div>
+  <h2 id="Background"><strong><u>Background</u></strong></h2>
   <p>
     Mi infancia la pase en los colegios Maristas a excepcion del kinder, en el cual estaba en uno que se llamaba Netherland. Desde mi instancia en el 
     Costa Rica llevo con la idea de querer trabajar desde casa y poder llevar mi vida de manera tranquila, siempre y cuando tenga un sueldo que cubra 
     todas mis necesidades y mas.
-     <h3><strong>Education</strong></h3>
+     <h3 id="Education"><strong>Education</strong></h3>
     <table>
       <tr>
         <td><strong>2008</strong><em> Netherland</em></td>
@@ -57,7 +81,7 @@
         <td><a href="https://www.up.edu.mx/campus-guadalajara"><img src="data:image/png;base64,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" alt="Escudo Marista" width="200"></a></td>
       </tr>
     </table>
-    <h3><strong>Skills</strong></h3>
+    <h3 id="Skills"><strong>Skills</strong></h3>
     <ol>
       <li>Drawing 20%</li>
       <li>Programming 30%</li>
@@ -66,8 +90,8 @@
       <li>Photography 60%</li>
     </ol>
   </p>
-  <h2><strong><u>Hobbies</u></strong></h2>
-  <h3><u>Favorite Food</u></h3>
+  <h2 id="Hobbies"><strong><u>Hobbies</u></strong></h2>
+  <h3 id="Favorite"><u>Favorite Food</u></h3>
   <h4>Favorite</h4>
   <ol>
     <li>Japanese</li>
@@ -82,88 +106,155 @@
     <li>Indian</li>
     <li>Arab</li>
   </ol>
-<h2>My Favorites</h2>
+  <h2 id="Favorites">My Favorites</h2>
+  <table cellpadding="50">
+    <tr>
+      <td><strong>Books</strong></td>
+      <td>
+        <img src="images/HabitosAtomicos.jpeg" width="120">
+      </td>
+      <td>
+        <ol>
+          <li>Hábitos Atómicos</li>
+          <li>The Fog</li>
+          <li>1984</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Movies</strong></td>
+      <td>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAe0MsdHoz8PuPFMgIA3Q4pIQQ8qus44JNg&s" width="120">
+      </td>
+      <td>
+        <ol>
+          <li>Interestelar</li>
+          <li>Bladerunner</li>
+          <li>Titanes de acero</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>TV Shows</strong></td>
+      <td>
+        <img src="https://es.web.img3.acsta.net/c_310_420/pictures/18/12/07/12/40/4530128.jpg" width="120">
+      </td>
+      <td>
+        <ol>
+          <li>Evangelion</li>
+          <li>Jojo's Bizarre Adventure</li>
+          <li>Arcane</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
 
-<table cellpadding="50">
-  <tr>
-    <td><strong>Books</strong></td>
-    <td>
-      <img src="images/HabitosAtomicos.jpeg" width="120">
-    </td>
-    <td>
-      <ol>
-        <li>Hábitos Atómicos</li>
-        <li>The Fog</li>
-        <li>1984</li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Movies</strong></td>
-    <td>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAe0MsdHoz8PuPFMgIA3Q4pIQQ8qus44JNg&s" width="120">
-    </td>
-    <td>
-      <ol>
-        <li>Interestelar</li>
-        <li>Bladerunner</li>
-        <li>Titanes de acero</li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>TV Shows</strong></td>
-    <td>
-      <img src="https://es.web.img3.acsta.net/c_310_420/pictures/18/12/07/12/40/4530128.jpg" width="120">
-    </td>
-    <td>
-      <ol>
-        <li>Evangelion</li>
-        <li>Jojo's Bizarre Adventure</li>
-        <li>Arcane</li>
-      </ol>
-    </td>
-  </tr>
-</table>
-<a href="destination.html">_My Favorite Spots_</a>
-<br>
-<a href="destination.html#Paris">Paris</a>
-<br>
-<a href="destination.html#Tokyo">Tokyo</a>
-<br>
-<a href="destination.html#Rome">Rome</a>
-<br>
-<a href="destination.html#Seul">Seul</a>
-<br>
-<a href="destination.html#Vancouver">Vancouver</a>
+  <a id="Spots" href="destination.html">_My Favorite Spots_</a>
+  <br>
+  <a href="destination.html#Paris">Paris</a>
+  <br>
+  <a href="destination.html#Tokyo">Tokyo</a>
+  <br>
+  <a href="destination.html#Rome">Rome</a>
+  <br>
+  <a href="destination.html#Seul">Seul</a>
+  <br>
+  <a href="destination.html#Vancouver">Vancouver</a>
 
 
-<h2><strong>Heroes/Writers/Musicians</strong></h2>
-<table border="5" cellpadding="10">
-  <tr>
-    <td><img src="images/Supermanflying.png" width="100" height="150"></td>
-    <td>Superman</td>
-    <td>29/02/1980</td>
-    <td>Super heroe and periodist</td>
-    <td>Saving the earth multiple times.</td>
-  </tr>
-  <tr>
-    <td><img src="images/Guillermo del toro.jpg" width="200" height="150"></td>
-    <td>Gullermo del Toro</td>
-    <td>09/10/1964</td>
-    <td>Screenwriter</td>
-    <td>He write the script of several movies like "El callejon de las almas perdidas"</td>
-  </tr>
-  <tr>
-    <td><img src="images/Ado.jpg" width="150" height="150"></td>
-    <td>Ado</td>
-    <td>24/10/2002</td>
-    <td>Singer</td>
-    <td>She write and sing several songs and collab with several artist outsside of japan like Imagine Dragons.</td>
-  </tr>
-</table>
-<table>
+  <h2 id="Idols"><strong>Heroes/Writers/Musicians</strong></h2>
+  <table border="5" cellpadding="10">
+    <tr>
+      <td><img src="images/Supermanflying.png" width="100" height="150"></td>
+      <td>Superman</td>
+      <td>29/02/1980</td>
+      <td>Super heroe and periodist</td>
+      <td>Saving the earth multiple times.</td>
+    </tr>
+    <tr>
+      <td><img src="images/Guillermo del toro.jpg" width="200" height="150"></td>
+      <td>Gullermo del Toro</td>
+      <td>09/10/1964</td>
+      <td>Screenwriter</td>
+      <td>He write the script of several movies like "El callejon de las almas perdidas"</td>
+    </tr>
+    <tr>
+      <td><img src="images/Ado.jpg" width="150" height="150"></td>
+      <td>Ado</td>
+      <td>24/10/2002</td>
+      <td>Singer</td>
+      <td>She write and sing several songs and collab with several artist outsside of japan like Imagine Dragons.</td>
+    </tr>
+  </table>
+  <table id="Schedule" border="1" cellpadding="10">
+    <tr>
+      <th>Date</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Description</th>
+      <th>Place</th>
+      <th>Type</th>
+      <th>Notes</th>
+      <th>Disponibility</th>
+    </tr>
+    <tr>
+      <td>03/09/2025</td>
+      <td>17:30</td>
+      <td>18:30</td>
+      <td>Team Meeting</td>
+      <td>Office 4</td>
+      <td>Work</td>
+      <td>Bring reports</td>
+      <td><img src="images/busy.png" alt="Busy" width="50" height="50"></td>
+    </tr>
+  </table>
+  <br>
+  <form id="Form">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date">
+    <hr>
 
-</table>
+    <label for="start">Time Start:</label>
+    <input type="time" id="start" name="start">
+    <hr>
+
+    <label for="end">Time End:</label>
+    <input type="time" id="end" name="end">
+    <hr>
+
+    <label for="activity">Activity:</label>
+    <input type="text" id="activity" name="activity">
+    <hr>
+
+    <label for="place">Place:</label>
+    <input type="text" id="place" name="place">
+    <hr>
+
+    <label for="type">Type:</label>
+    <select id="type" name="type">
+      <option value="school">School</option>
+      <option value="personal">Personal</option>
+      <option value="profesional">Profesional</option>
+      <option value="familiar">Familiar</option>
+      <option value="other">Other</option>
+    </select>
+    <hr>
+
+    <label for="notes">Notes:</label>
+    <textarea id="notes" name="notes"></textarea>
+    <hr>
+
+    <label for="flag">Flag (color):</label>
+    <input type="color" id="flag" name="flag">
+    <hr>
+
+    <div class="checkbox-field">
+      <input type="checkbox" id="status" name="status" value="busy">
+      <label for="status">Busy (unchecked = Free)</label>
+    </div>
+    <hr>
+
+    <button type="submit">Save Schedule</button>
+  </form>
 </body>
 </html>
