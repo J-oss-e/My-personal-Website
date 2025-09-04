@@ -3,17 +3,6 @@ body {
   font-family: 'Merriweather', serif;
   text-align: center;
 }
-/*
-#mountain{
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-*/
 #mountain{
   width: 100vw;
   height: 100vh;
