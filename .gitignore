@@ -1,0 +1,10 @@
+/node_modules/
+/dist/
+package-lock.json
+# Global npm packages
+Portfolio/07-BasicNode/node_modules/
+Portfolio/07-BasicNode/node_modules/package-lock.json
+Portfolio/08-BasicExpress/node_modules
+Portfolio/08-BasicExpress/package-lock.json
+Portfolio/10-ExpressEJS/node_modules
+Portfolio/10-ExpressEJS/package-lock.json
