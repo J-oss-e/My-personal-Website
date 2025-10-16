@@ -5,6 +5,13 @@
 
 // TODO: Adjust this script so it can work with the sieve.html file.
 
+document.getElementById("btn").addEventListener("click", function () {
+  "use strict";
+  var n = parseInt(document.getElementById("num").value);
+  var primes = sieve(n);
+  document.getElementById("primes").innerText = primes.join(", ");
+});
+
 var sieve = function (n) {
   "use strict";
 
@@ -14,6 +21,30 @@ var sieve = function (n) {
     j;
 
   // TODO: Implement the sieve of eratosthenes algorithm to find all the prime numbers under the given number.
+
+  // Inicializar el array con valores verdaderos
+  for (i = 0; i <= n; i++) {
+    array[i] = true;
+  }
+
+  // 0 y 1 no son primos
+  array[0] = array[1] = false;
+
+  // Algoritmo principal del tamiz
+  for (i = 2; i * i <= n; i++) {
+    if (array[i]) {
+      for (j = i * i; j <= n; j += i) {
+        array[j] = false;
+      }
+    }
+  }
+
+  // Recopilar los números primos
+  for (i = 2; i <= n; i++) {
+    if (array[i]) {
+      primes.push(i);
+    }
+  }
 
   return primes;
 };
